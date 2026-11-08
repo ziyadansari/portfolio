@@ -1,126 +1,62 @@
 function About() {
   return (
-    <section className="about-section">
-
-      <div className="section-heading">
-        <p>About Me</p>
-
-        <h1>Get To Know Me</h1>
-
-        <span>
-          A little more about my education, interests and background.
-        </span>
-      </div>
-
-
-      <div className="about-container">
-
-        {/* About Text */}
-
-        <div className="about-content">
-
-          <h2>Hello, I'm Ziyad 👋</h2>
-
-          <p>
-            I am a passionate learner and aspiring Frontend Developer
-            who enjoys building modern and responsive web applications
-            using React and JavaScript.
+    <section className="inner-page container">
+      <div className="row g-4">
+        <div className="col-lg-4">
+          <p className="eyebrow">A bit of backstory</p>
+          <h1 className="page-title">Hello, I’m <em>Ziyad.</em></h1>
+          <p className="page-intro">
+            A curious builder, a lifelong learner, and someone who likes making
+            the internet feel a little more human.
           </p>
-
-          <p>
-            I have completed my B.Tech in Computer Science and Engineering
-            with a CGPA of 7.45 from Dr. A.P.J. Abdul Kalam Technical
-            University (AKTU).
-          </p>
-
-          <p>
-            Currently, I am pursuing an MBA in IT from Dr. A.P.J. Abdul
-            Kalam Technical University (AKTU), where I am developing my
-            technical and management skills.
-          </p>
-
-          <p>
-            Apart from technology, I love listening to music and travelling.
-            I enjoy exploring new places and learning new things.
-          </p>
-
+          <div className="about-stamp" aria-hidden="true">
+            <span>MADE WITH</span>
+            <strong>care<br />& curiosity</strong>
+            <span>IN INDIA · EST. ALWAYS LEARNING</span>
+          </div>
         </div>
-
-
-        {/* Education */}
-
-        <div className="about-details">
-
-          <div className="detail-card">
-
-            <h3>🎓 Education</h3>
-
+        <div className="col-lg-7 offset-lg-1">
+          <div className="about-story">
             <p>
-              <strong>B.Tech - Computer Science & Engineering</strong>
+              I’m an aspiring frontend developer who enjoys turning ideas into
+              clear, useful web experiences. I work with HTML, CSS, JavaScript,
+              and React, and I’m always finding something new to learn along the way.
             </p>
-
-            <span>
-              CGPA: 7.45 | AKTU
-            </span>
-
+            <p>
+              I completed a B.Tech in Computer Science and Engineering from
+              Dr. A.P.J. Abdul Kalam Technical University, graduating with a
+              CGPA of 7.45. I’m currently pursuing an MBA in Information Technology
+              at the same university.
+            </p>
+            <p>
+              Away from the screen, you’ll find me listening to music, travelling,
+              or discovering somewhere new. I bring that same curiosity to the
+              things I build.
+            </p>
           </div>
-
-
-          <div className="detail-card">
-
-            <h3>📚 Currently Pursuing</h3>
-
-            <p>
-              <strong>MBA - Information Technology</strong>
-            </p>
-
-            <span>
-              Dr. A.P.J. Abdul Kalam Technical University
-            </span>
-
+          <div className="about-divider" />
+          <div className="row gy-4">
+            <div className="col-sm-6">
+              <span className="detail-label">THE STUDY NOTES</span>
+              <h2 className="detail-title">Learning, always.</h2>
+              <p className="detail-copy">
+                B.Tech, Computer Science &amp; Engineering<br />
+                MBA, Information Technology · in progress
+              </p>
+            </div>
+            <div className="col-sm-6">
+              <span className="detail-label">SAY HELLO</span>
+              <h2 className="detail-title">I’m easy to find.</h2>
+              <p className="detail-copy">
+                <a href="tel:+917037941256">+91 70379 41256</a><br />
+                <a href="https://www.instagram.com/ziyadansari001/" target="_blank" rel="noreferrer">
+                  Instagram ↗
+                </a>
+              </p>
+            </div>
           </div>
-
-
-          <div className="detail-card">
-
-            <h3>❤️ Interests</h3>
-
-            <p>
-              🎵 Listening to Music
-            </p>
-
-            <p>
-              ✈️ Travelling & Exploring New Places
-            </p>
-
-          </div>
-
-
-          <div className="detail-card">
-
-            <h3>📱 Contact</h3>
-
-            <p>
-              <a href="tel:+917037941256">
-                +91 7037941256
-              </a>
-            </p>
-
-            <p>
-              <a
-                href="https://www.instagram.com/ziyadansari001/"
-              
-              >
-                Instagram: @ziyadansari001
-              </a>
-            </p>
-
-          </div>
-
         </div>
-
       </div>
-
     </section>
   );
 }

@@ -1,13 +1,39 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--paper);
+  background-image: radial-gradient(rgb(41 43 35 / 4%) 0.6px, transparent 0.6px);
+  background-position: -3px -3px;
+  background-size: 10px 10px;
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
 
-  background-color: #0f172a;
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
 
-  color: #f8fafc;
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--olive-dark);
+  outline-offset: 4px;
+}
+
+::selection {
+  background: #d2d9c4;
+  color: var(--ink);
 }
