@@ -1,9 +1,10 @@
+
 function Skills() {
   const skills = [
     {
       name: "HTML",
       description: "Creating clean and semantic web pages.",
-    
+      icon: "🌐"
     },
     {
       name: "CSS",
@@ -19,6 +20,26 @@ function Skills() {
       name: "React",
       description: "Building component-based user interfaces.",
       icon: "⚛️"
+    },
+    {
+      name: "PostgreSQL",
+      description: "Writing SQL queries and managing relational databases.",
+      icon: "🐘"
+    },
+    {
+      name: "MongoDB",
+      description: "Working with NoSQL databases and CRUD operations.",
+      icon: "🍃"
+    },
+    {
+      name: "Node.js (Basic)",
+      description: "Understanding server-side JavaScript and backend fundamentals.",
+      icon: "🟢"
+    },
+    {
+      name: "Express.js (Basic)",
+      description: "Creating REST APIs and handling server-side routes.",
+      icon: "🚀"
     }
   ];
 
