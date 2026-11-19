@@ -68,7 +68,7 @@ function Projects() {
               <div className="project-links">
 
                 <Link to={project.link}  target="_blank">
-                  View Details →
+                  View Project →
                 </Link>
 
               </div>
